@@ -2,6 +2,7 @@
 notifications:
   email:
     - slyphon@gmail.com
+    - eric@5stops.com
 
 # pull in releaseops submodule
 before_install:
@@ -21,6 +22,7 @@ rvm:
   - jruby-19mode
   - rbx-18mode
   - rbx-19mode
+  - 2.0.0
 matrix:
   allow_failures:
     - rvm: rbx-18mode
